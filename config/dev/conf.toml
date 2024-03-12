@@ -1,0 +1,9 @@
+[dockerRepo]
+  host = "testhub.szjixun.cn:9043"
+  [dockerRepo.projectenv]
+    dev = "k8stest"
+    test = "k8stest"
+    prod = "k8prod"
+[kuboard]
+  update_image_url = "http://172.16.100.22:9070/kuboard-api/cluster/k8s-test/kind/CICDApi/admin/resource/updateImageTag"
+  username = "admin"
