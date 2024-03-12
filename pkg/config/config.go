@@ -27,7 +27,7 @@ func Init() {
 				Prod string
 			}
 		}{
-			Host: "testhub.szjixun.cn:9043",
+			Host: "xxxx.xxxx.cn:9043",
 			ProjectEnv: struct {
 				Dev  string
 				Test string

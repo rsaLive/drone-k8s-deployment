@@ -8,7 +8,7 @@ WORKDIR /build
 COPY ./build/drone-k8s /app/drone-k8s
 
 # run step
-FROM testhub.szjixun.cn:9043/public/self-alpine
+FROM xxx.xxx.cn:9043/public/self-alpine
 
 #RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 #RUN apk update --no-cache

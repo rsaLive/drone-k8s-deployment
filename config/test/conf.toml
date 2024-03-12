@@ -1,5 +1,5 @@
 [dockerRepo]
-  host = "testhub.szjixun.cn:9043"
+  host = "xxxx.xxxx.cn:9043"
   [dockerRepo.projectenv]
     dev = "k8stest"
     test = "k8stest"
